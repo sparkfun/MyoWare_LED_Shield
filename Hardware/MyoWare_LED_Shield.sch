@@ -17330,13 +17330,14 @@ Various fiducial points for machine vision alignment.</description>
 <packages>
 <package name="PLCC20S">
 <description>&lt;b&gt;PLCC&lt;/b&gt;&lt;p&gt;
-20 lead square</description>
-<circle x="0" y="2.2125" radius="0.3" width="0.254" layer="21"/>
-<wire x1="4.9" y1="4.9" x2="-2.665" y2="4.9" width="0.2032" layer="48"/>
-<wire x1="-4.9" y1="2.665" x2="-4.9" y2="-4.9" width="0.2032" layer="48"/>
-<wire x1="-4.9" y1="-4.9" x2="4.9" y2="-4.9" width="0.2032" layer="48"/>
-<wire x1="4.9" y1="-4.9" x2="4.9" y2="4.9" width="0.2032" layer="48"/>
-<wire x1="-2.665" y1="4.9" x2="-4.9" y2="2.665" width="0.2032" layer="48"/>
+20 lead square&lt;br /&gt;
+Based on: http://focus.ti.com/en/download/qlty/LAND_PATTERN_RECOMMENDATIONS-MISC.pdf</description>
+<circle x="-4.445" y="4.445" radius="0.3" width="0.254" layer="21"/>
+<wire x1="4.445" y1="4.445" x2="-2.665" y2="4.445" width="0.2032" layer="48"/>
+<wire x1="-4.445" y1="2.665" x2="-4.445" y2="-4.445" width="0.2032" layer="48"/>
+<wire x1="-4.445" y1="-4.445" x2="4.445" y2="-4.445" width="0.2032" layer="48"/>
+<wire x1="4.445" y1="-4.445" x2="4.445" y2="4.445" width="0.2032" layer="48"/>
+<wire x1="-2.665" y1="4.445" x2="-4.445" y2="2.665" width="0.2032" layer="48"/>
 <rectangle x1="-0.26" y1="4.95" x2="0.26" y2="5.4" layer="48"/>
 <rectangle x1="-1.53" y1="4.95" x2="-1.01" y2="5.4" layer="48"/>
 <rectangle x1="-2.8" y1="4.95" x2="-2.28" y2="5.4" layer="48"/>
@@ -17357,26 +17358,26 @@ Various fiducial points for machine vision alignment.</description>
 <rectangle x1="4.95" y1="2.28" x2="5.4" y2="2.8" layer="48"/>
 <rectangle x1="2.28" y1="4.95" x2="2.8" y2="5.4" layer="48"/>
 <rectangle x1="1.01" y1="4.95" x2="1.53" y2="5.4" layer="48"/>
-<smd name="1" x="0" y="4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="2" x="-1.27" y="4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="-2.54" y="4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="-4.3" y="2.54" dx="2.2" dy="0.6" layer="1"/>
-<smd name="5" x="-4.3" y="1.27" dx="2.2" dy="0.6" layer="1"/>
-<smd name="6" x="-4.3" y="0" dx="2.2" dy="0.6" layer="1"/>
-<smd name="7" x="-4.3" y="-1.27" dx="2.2" dy="0.6" layer="1"/>
-<smd name="8" x="-4.3" y="-2.54" dx="2.2" dy="0.6" layer="1"/>
-<smd name="9" x="-2.54" y="-4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="10" x="-1.27" y="-4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="11" x="0" y="-4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="12" x="1.27" y="-4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="13" x="2.54" y="-4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="14" x="4.3" y="-2.54" dx="2.2" dy="0.6" layer="1"/>
-<smd name="15" x="4.3" y="-1.27" dx="2.2" dy="0.6" layer="1"/>
-<smd name="16" x="4.3" y="0" dx="2.2" dy="0.6" layer="1"/>
-<smd name="17" x="4.3" y="1.27" dx="2.2" dy="0.6" layer="1"/>
-<smd name="18" x="4.3" y="2.54" dx="2.2" dy="0.6" layer="1"/>
-<smd name="19" x="2.54" y="4.3" dx="0.6" dy="2.2" layer="1"/>
-<smd name="20" x="1.27" y="4.3" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="0" y="4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="2" x="-1.27" y="4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="3" x="-2.54" y="4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="4" x="-4.3825" y="2.54" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="5" x="-4.3825" y="1.27" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="6" x="-4.3825" y="0" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="7" x="-4.3825" y="-1.27" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="8" x="-4.3825" y="-2.54" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="9" x="-2.54" y="-4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="10" x="-1.27" y="-4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="11" x="0" y="-4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="12" x="1.27" y="-4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="13" x="2.54" y="-4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="14" x="4.3825" y="-2.54" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="15" x="4.3825" y="-1.27" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="16" x="4.3825" y="0" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="17" x="4.3825" y="1.27" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="18" x="4.3825" y="2.54" dx="0.63" dy="2.035" layer="1" rot="R90"/>
+<smd name="19" x="2.54" y="4.3825" dx="0.63" dy="2.035" layer="1"/>
+<smd name="20" x="1.27" y="4.3825" dx="0.63" dy="2.035" layer="1"/>
 <text x="-3.175" y="5.715" size="1.778" layer="25">&gt;NAME</text>
 <text x="-4.445" y="-7.485" size="1.778" layer="27">&gt;VALUE</text>
 </package>
@@ -17410,7 +17411,7 @@ Various fiducial points for machine vision alignment.</description>
 <text x="-9.525" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="LED_BAR_SMD">
-<circle x="-5.08" y="-5.715" radius="0.4490125" width="0.254" layer="21"/>
+<circle x="-10.16" y="-8.89" radius="0.4490125" width="0.254" layer="21"/>
 <wire x1="10.16" y1="8.89" x2="10.16" y2="-8.89" width="0.127" layer="49"/>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="8.89" width="0.127" layer="49"/>
 <wire x1="-8.89" y1="6.35" x2="-6.35" y2="6.35" width="0.127" layer="49"/>
@@ -17460,6 +17461,8 @@ Various fiducial points for machine vision alignment.</description>
 <smd name="4" x="5.08" y="8.84" dx="2.88" dy="2.4" layer="1" rot="R90"/>
 <smd name="5" x="0" y="8.84" dx="2.88" dy="2.4" layer="1" rot="R90"/>
 <smd name="6" x="-5.08" y="8.84" dx="2.88" dy="2.4" layer="1" rot="R90"/>
+<text x="-11.43" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="12.7" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -17527,6 +17530,8 @@ Various fiducial points for machine vision alignment.</description>
 <vertex x="-1.905" y="10.795"/>
 <vertex x="-2.54" y="10.16"/>
 </polygon>
+<text x="-5.08" y="12.7" size="0.8128" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="0.8128" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -17828,8 +17833,10 @@ VCC IS TYPICALLY NOMINALLY 3V</text>
 </plain>
 <instances>
 <instance part="JP2" gate="G$1" x="22.86" y="60.96" rot="MR180"/>
-<instance part="D1" gate="G$1" x="162.56" y="101.6">
+<instance part="D1" gate="G$1" x="162.56" y="101.6" smashed="yes">
 <attribute name="PROD_ID" x="162.56" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="157.48" y="114.3" size="0.8128" layer="95"/>
+<attribute name="VALUE" x="160.02" y="114.3" size="0.8128" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="162.56" y="86.36">
 <attribute name="PROD_ID" x="162.56" y="86.36" size="1.778" layer="96" display="off"/>
