@@ -12614,7 +12614,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="166.116" y="11.43" size="2.54" layer="94">Brian E Kaminski of Advancer Technologies</text>
 <text x="148.59" y="7.366" size="2.54" layer="94" ratio="10">Revised by: Brent Wilkins</text>
 <text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v02</text>
-<text x="190.5" y="177.8" size="1.778" layer="97" font="vector" ratio="15" align="top-left">+VS +2.7V to +5.3V
+<text x="190.5" y="177.8" size="1.778" layer="97" font="vector" ratio="15" align="top-left">+VS up to +5.3V
 EXPECT UP TO VCC ON SIGNAL LINES
 +VS IS TYPICALLY NOMINALLY 3.7V</text>
 <text x="83.82" y="78.74" size="1.778" layer="97" font="vector" ratio="15" align="top-right">MODE wired directly to V+ pin for bar graph mode
@@ -12626,6 +12626,8 @@ Open SJ1 to turn board into dot mode
 <text x="40.64" y="180.34" size="2.1844" layer="97" font="vector" ratio="15" align="bottom-center">PTH CONNECTIONS</text>
 <text x="152.4" y="180.34" size="2.1844" layer="97" font="vector" ratio="15" align="bottom-center">BATTERY CHARGER</text>
 <text x="127" y="101.6" size="2.1844" layer="97" font="vector" ratio="15" align="bottom-center">LED CONTROL</text>
+<text x="203.2" y="129.54" size="1.778" layer="97" font="vector" ratio="15" align="bottom-center">10KΩ =&gt; 100mA
+Charge Rate</text>
 </plain>
 <instances>
 <instance part="JP2" gate="G$1" x="33.02" y="147.32" rot="MR180"/>
