@@ -12613,7 +12613,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="166.116" y="11.43" size="2.54" layer="94">Brian E Kaminski of Advancer Technologies</text>
 <text x="148.59" y="7.366" size="2.54" layer="94" ratio="10">Revised by: Brent Wilkins</text>
-<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v03</text>
+<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="190.5" y="177.8" size="1.778" layer="97" font="vector" ratio="15" align="top-left">+VS up to +5.3V
 EXPECT UP TO VCC ON SIGNAL LINES
 +VS IS TYPICALLY NOMINALLY 3.7V</text>
