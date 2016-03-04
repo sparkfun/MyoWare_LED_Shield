@@ -6273,8 +6273,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="RES-00824" x="43.561" y="16.256" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="1X02_NO_SILK" value="LiPo" x="49.4665" y="5.0165" rot="R225"/>
-<element name="D2" library="SparkFun-LED" package="LED-0603" value="RED" x="48.5775" y="15.9385" rot="MR90">
-<attribute name="PROD_ID" value="DIO-00819" x="48.5775" y="15.9385" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="D2" library="SparkFun-LED" package="LED-0603" value="GREEN" x="48.5775" y="15.9385" rot="MR90">
+<attribute name="PROD_ID" value="DIO-00821" x="48.5775" y="15.9385" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603-RES" value="330" x="43.561" y="14.351" rot="MR180">
 <attribute name="VALUE" value="330" x="43.561" y="14.351" size="1.778" layer="28" rot="MR180" display="off"/>
