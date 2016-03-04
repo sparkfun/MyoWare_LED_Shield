@@ -12852,7 +12852,7 @@ Charge Rate</text>
 <instance part="GND1" gate="1" x="111.76" y="33.02"/>
 <instance part="JP1" gate="J$1" x="33.02" y="127" rot="MR180"/>
 <instance part="MODE" gate="G$1" x="91.44" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.662" y="72.898" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="89.662" y="72.898" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="JP4" gate="G$1" x="96.52" y="154.94" rot="MR0"/>
 <instance part="R3" gate="G$1" x="134.62" y="154.94" rot="R180"/>
@@ -12963,7 +12963,7 @@ Charge Rate</text>
 <segment>
 <wire x1="40.64" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="J$1" pin="3"/>
-<label x="43.18" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="43.18" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="SIGIN"/>
@@ -12998,7 +12998,7 @@ Charge Rate</text>
 <segment>
 <wire x1="43.18" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="J$1" pin="2"/>
-<label x="43.18" y="127" size="1.27" layer="95" xref="yes"/>
+<label x="43.18" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="V+"/>
@@ -13026,7 +13026,7 @@ Charge Rate</text>
 <segment>
 <wire x1="43.18" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="J$1" pin="1"/>
-<label x="43.18" y="129.54" size="1.27" layer="95" xref="yes"/>
+<label x="43.18" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13201,28 +13201,28 @@ Charge Rate</text>
 <segment>
 <pinref part="JP4" gate="G$1" pin="SHIELD"/>
 <wire x1="88.9" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
-<label x="86.36" y="154.94" size="1.27" layer="91" rot="R180" xref="yes"/>
+<label x="86.36" y="154.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D-" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="D-"/>
 <wire x1="104.14" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
-<label x="106.68" y="157.48" size="1.27" layer="91" xref="yes"/>
+<label x="106.68" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="D+" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="D+"/>
 <wire x1="104.14" y1="154.94" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
-<label x="106.68" y="154.94" size="1.27" layer="91" xref="yes"/>
+<label x="106.68" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="ID" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="ID"/>
 <wire x1="104.14" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
-<label x="106.68" y="152.4" size="1.27" layer="91" xref="yes"/>
+<label x="106.68" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
