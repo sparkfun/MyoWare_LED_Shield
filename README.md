@@ -1,9 +1,9 @@
 MyoWare™ LED Shield
 ========================================
 
-![MyoWare™ LED Shield](URL for picture of part)
+![MyoWare™ LED Shield](https://cdn.sparkfun.com//assets/parts/1/1/1/5/7/13688-01.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*MyoWare LED Shield (13688)*](https://www.sparkfun.com/products/13688)
 
 The MyoWare™ LED Shield is designed to pair with the MyoWare™ Muscle Sensor. The 10 segment bar graph shows the magnitude of the measured signal.
 
@@ -14,13 +14,9 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the MyoWare™ LED Shield.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/myoware-muscle-sensor-kit?_ga=1.172011619.1515819426.1457626448)** - Basic hookup guide for the MyoWare™ LED Shield.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products.
-
-Product Versions
-----------------
-* [v1.0](part URL)- MyoWare™ LED Shield
 
 License Information
 -------------------
@@ -34,5 +30,3 @@ If you have any questions or concerns on licensing, please contact techsupport@s
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
